@@ -86,7 +86,7 @@ export class CodeFileSettingTab extends PluginSettingTab {
 						await this.plugin.saveSettings();
 					});
 				area.inputEl.rows = 6;
-				area.inputEl.style.width = "100%";
+				area.inputEl.addClass("codefile-overrides-input");
 			});
 	}
 }

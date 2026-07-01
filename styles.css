@@ -31,6 +31,10 @@
 	border-top-right-radius: 0;
 }
 
+.codefile-overrides-input {
+	width: 100%;
+}
+
 .codefile-error {
 	padding: 6px 10px;
 	border-radius: var(--radius-s);
