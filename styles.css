@@ -1,0 +1,42 @@
+.codefile-embed {
+	margin: 0.4em 0;
+}
+
+.codefile-header {
+	display: flex;
+	align-items: center;
+	font-size: var(--font-smallest);
+	color: var(--text-muted);
+	padding: 2px 6px;
+	border: 1px solid var(--background-modifier-border);
+	border-bottom: none;
+	border-radius: var(--radius-s) var(--radius-s) 0 0;
+	background: var(--background-secondary);
+}
+
+.codefile-link {
+	color: var(--text-muted);
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.codefile-link:hover {
+	color: var(--text-normal);
+	text-decoration: underline;
+}
+
+.codefile-embed .codefile-header + .codefile-body pre {
+	margin-top: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.codefile-error {
+	padding: 6px 10px;
+	border-radius: var(--radius-s);
+	border: 1px solid var(--background-modifier-error-hover);
+	background: var(--background-modifier-error);
+	color: var(--text-error);
+	font-size: var(--font-smaller);
+	font-family: var(--font-monospace);
+}

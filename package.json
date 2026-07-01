@@ -1,0 +1,27 @@
+{
+	"name": "obsidian-codefile",
+	"version": "1.0.0",
+	"description": "Embed a vault file as a syntax-highlighted code block in Obsidian.",
+	"main": "main.js",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"test": "vitest run"
+	},
+	"keywords": [
+		"obsidian",
+		"plugin",
+		"code",
+		"embed"
+	],
+	"author": "willian.saez",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^20.11.0",
+		"builtin-modules": "^3.3.0",
+		"esbuild": "^0.20.0",
+		"obsidian": "latest",
+		"typescript": "^5.4.0",
+		"vitest": "^1.6.0"
+	}
+}
