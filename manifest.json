@@ -4,6 +4,6 @@
 	"version": "1.0.0",
 	"minAppVersion": "1.4.0",
 	"description": "Embed the contents of a vault file as a syntax-highlighted code block via a codefile fenced block.",
-	"author": "willian.saez",
+	"author": "Willian Saez",
 	"isDesktopOnly": false
 }
